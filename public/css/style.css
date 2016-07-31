@@ -1,0 +1,34 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: rgb(229, 236, 239);
+}
+
+@media all and (min-width: 720px) {
+  .datepicker-input {
+    width: 100px !important;
+  }
+  .autocomplete-airport-input {
+    width: 300px !important;
+  }
+}
+
+.ui-autocomplete-loading {
+  background: white url("../img/loading.gif") right center no-repeat;
+}
+
+.container-fluid {
+  padding: 30px;
+  max-width: 1080px;
+  min-width: 460px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.center {
+  text-align: center !important;
+}

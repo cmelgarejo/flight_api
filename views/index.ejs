@@ -1,0 +1,41 @@
+<% include header %>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12">
+      <img src="/img/banner-top.jpg" class="img-responsive"/>
+    </div>
+  </div>
+  <br/>
+  <% include form %>
+  <br/>
+  <div class="row">
+    <div class="col-md-12 table-responsive">
+      <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation">
+          <a href="#1" aria-controls="1" role="tab" data-toggle="tab">&lt;&lt;</a>
+        </li>
+        <li role="presentation">
+          <a href="#2" aria-controls="2" role="tab" data-toggle="tab">&lt;</a>
+        </li>
+        <li role="presentation" class="active">
+          <a href="#3" aria-controls="3" role="tab" data-toggle="tab">Selected Day</a>
+        </li>
+        <li role="presentation">
+          <a href="#4" aria-controls="4" role="tab" data-toggle="tab">&gt;</a>
+        </li>
+        <li role="presentation">
+          <a href="#5" aria-controls="5" role="tab" data-toggle="tab">&gt;&gt;</a>
+        </li>
+      </ul>
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="1"><% include table %></div>
+        <div role="tabpanel" class="tab-pane" id="2"><% include table %></div>
+        <div role="tabpanel" class="tab-pane" id="3"><% include table %></div>
+        <div role="tabpanel" class="tab-pane" id="4"><% include table %></div>
+        <div role="tabpanel" class="tab-pane" id="5"><% include table %></div>
+      </div>
+      <%# <table class="table table-bordered table-hover" id="flightgrid_1"> <thead> <tr> <td>Airline</td> <td>Flight No.</td> <td>Departure</td> <td>Arrival</td> <td>Price</td> </tr> </thead> <tbody></tbody> </table>%>
+    </div>
+  </div>
+</div>
+<% include footer %>

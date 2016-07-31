@@ -1,0 +1,38 @@
+{
+  "name": "flight-api",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.1",
+    "express": "^4.14.0",
+    "momentjs": "^1.1.14",
+    "morgan": "^1.7.0",
+    "request": "^2.74.0",
+    "serve-favicon": "^2.3.0"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.9.1",
+    "grunt": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-develop": "^0.4.0",
+    "load-grunt-tasks": "^3.2.0",
+    "request": "^2.74.0",
+    "time-grunt": "^1.2.1"
+  },
+  "description": "A Simple SPA and proxy API for the Flight API by Locomote - https://www.locomote.com/",
+  "main": "Gruntfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmelgarejo/flight_api.git"
+  },
+  "author": "Christian Melgarejo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cmelgarejo/flight_api/issues"
+  },
+  "homepage": "https://github.com/cmelgarejo/flight_api#readme"
+}
