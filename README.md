@@ -1,3 +1,5 @@
+[![Known Vulnerabilities](https://snyk.io/test/github/cmelgarejo/flight_api/badge.svg)](https://snyk.io/test/github/cmelgarejo/flight_api)
+
 # Flight API
 
 Simple SPA and proxy API for the **mock** Flight API by the awesome guys @ [Locomote](https://www.locomote.com/)
