@@ -2,7 +2,7 @@
 
 # Flight API
 
-Simple SPA and proxy API for the **mock** Flight API by the awesome guys @ [Locomote](https://www.locomote.com/)
+Simple SPA and proxy API for the **mock** Flight API [Locomote](https://www.locomote.com/)
 
 ## Requirements
 * Node.js
